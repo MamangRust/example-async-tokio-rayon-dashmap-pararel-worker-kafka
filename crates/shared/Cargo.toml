@@ -1,0 +1,18 @@
+[package]
+name = "shared"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+rdkafka.workspace = true
+serde_json.workspace = true
+axum.workspace = true
+async-trait.workspace = true
+futures.workspace = true
+rayon.workspace = true
+chrono.workspace = true
+serde.workspace = true
+tokio.workspace = true
+uuid.workspace = true
+dashmap.workspace = true
+csv.workspace = true
